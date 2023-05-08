@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Royal Food Paradise</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" href="1-js-bill.css">
+    <link rel="icon" type="image/x-icon" href="crown.png">
+    <script async src="2-js-bill.js"></script>
+  </head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nunito+Sans&family=Raleway:wght@300&display=swap');
+
+    body{
+background-color:#FCF3CF;}
+h1{
+font-family:'Raleway',sans-serif;
+}
+#sty1{
+font-family:'Montserrat',sans-serif;
+}
+#sty2{
+font-family: 'Nunito Sans', sans-serif;
+}
+
+#sty3{
+color:#757575;
+font-family: 'Nunito Sans', sans-serif;
+font-size:20px;
+}
+
+#sty4{
+color:#F4800C;
+font-size:40px;
+text-align:center;
+font-family:'Montserrat',sans-serif;
+text-decoration:underline;
+text-decoration-color:#9B9B9B;
+}
+
+
+#a{
+color:#F4800C;
+font-size:80px;
+text-transform:capitalise;
+text-decoration:underline;
+text-decoration-color:#9B9B9B;
+font-family: "Raleway", serif;
+}
+
+</style>
+  <body>
+    <ul id="ul">
+      <nav>
+        <li><a id="link" href="sub1.html">Food</a></li>
+        <li><a id="link" href="sub2.html">Menu</a></li>
+        <li><a id="link" href="sub3.html">Price List</a></li>
+        <li><a id="link" href="1-js-bill.html">Order Now</a></li>
+        <li><a id="link" href="sub4.html">About Us</a></li>
+      </nav>
+      </ul>
+      
+      <h1 id="head"><a id="a" href="project.html"><center>Royal Food Paradise</center></a></h1>
+      <h4 id="sty1"><center><em> Elite Dining Experience for Everyone...</em></center></h4>
+      <center><img src="crown.png" height=100px width=100px></center>
+      <h2 id="subhead" style="text-align:left">Order and Bill</h2>
+    <p id="bill">
+    <!-- (A) ADD ITEM -->
+    <div id="billAdd" class="mi">add_circle_outline</div>
+
+    <!-- (B) BILL ITEMS -->
+    <div id="billItems"></div>
+    <datalist id="itemList"></datalist>
+    <template id="itemRow">
+    <div class="row">
+      <input type="number" class="qty" min="1" placeholder="Qty">
+      <input type="text" class="item" list="itemList" placeholder="Item Name">
+      <input type="number" class="price" min="0.00" step="0.01" placeholder="Price N/A">
+      <input type="button" class="del mi" value="clear">
+    </div>
+    </template>
+
+    <!-- (C) BILL TOTAL -->
+    <div id="billTotal">
+      <div id="billTotalAmt">Rs.0</div>
+      <input type="button" id="billPrint" class="mi" value="print" disabled>
+    </div>
+  </p>
+    <h2 id="subhead" style="text-align:left"> Payment and Delivery </h2>
+    <div id="sty2">
+      <form>
+      <label for="c.Name">Customer Name:</label>
+      <input type="text" id="c.name" name="c.name"><br><br>
+      <label for="Ph.No.">Mobile Number:</label>
+      <input type="numbers" id="Ph.No." name="Ph.No."><br><br>
+      <label>Delivery Address:</label><br>
+    <textarea name="Address:", cols="50", rows="5">
+    </textarea><br><br>
+    <button class="submit" type="submit">Proceed to Transaction</button>
+ 
+
+  <div>
+    <p>
+    <h5 id="sty3">Address:</h5>
+    <p id="sty2">
+    No.21/11 Plazza Avenue,<br>
+    First Main Road,<br>
+    Chennai-600049.<br>
+    Timings:<i> 7:00 a.m.-10:00 p.m</i>
+    
+    </p>
+    </div>
+    <div id="sty1">
+    <b>
+    <p><center>All Rights Reserved. <br> The Royal Food Paradise &copy2023</center></p>
+    </b>
+    </div>
+ 
+
+  </body>
+</html>

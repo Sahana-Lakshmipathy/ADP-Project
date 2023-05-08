@@ -1,0 +1,87 @@
+
+#head{
+color:#F4800C;
+font-size:80px;
+text-transform:capitalise;
+text-decoration:underline;
+text-decoration-color:#9B9B9B;
+font-family: "Raleway", serif;
+}
+
+#subhead{
+color:#F4800C;
+font-size:50px;
+text-align:center;
+font-family:'Montserrat',sans-serif;
+text-decoration:underline;
+text-decoration-color:#9B9B9B;
+}
+
+#ul{
+list-style-type: none;
+margin: 0;
+padding:0;
+overflow: hidden;
+background-color: #E78056;
+}
+
+li{
+float: left;
+font-size:40px;
+
+}
+
+li:last-child {
+float:right
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-family:'Montserrat',Sans-serif;
+}
+
+li a:hover {
+  background-color: #E64A01;
+}
+
+
+body{
+background-color:#FCF3CF;
+outline: double;
+outline-width: medium;
+outline-color:#F2C40C;
+outline-offset: 15px;
+}
+
+#para_set{
+
+text-indent:40px;
+text-align-last:left;
+font-family:"Optima",sans-serif;
+}
+
+
+#link{
+text-decoration: none;
+}
+
+.submit {
+background-color:#FFC300;
+color:#FFFFFF;
+border:none;
+padding:15px 32px;
+text-align:center;
+display:inline-block;
+font-size:25px;
+font-family:'Montserrat',Sans-serif;
+}
+
+.submit:hover{
+transition-duration:0.6s;
+background-color:#E8B201;
+color:#FFFFFF;
+}
